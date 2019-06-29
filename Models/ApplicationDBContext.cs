@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SportsStore.Models
 {
-    public class ApplicationDBContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> option) : base(option) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         
         public DbSet<Product> Products { get; set; }
     }

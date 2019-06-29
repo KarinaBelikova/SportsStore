@@ -11802,11 +11802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kiit1\\source\\repos\\SportsStore\\SportsStore\\SportsStore.csproj",
+      "projectUniqueName": "C:\\Users\\kiit1\\Documents\\GitHub\\SportsStore\\SportsStore\\SportsStore.csproj",
       "projectName": "SportsStore",
-      "projectPath": "C:\\Users\\kiit1\\source\\repos\\SportsStore\\SportsStore\\SportsStore.csproj",
+      "projectPath": "C:\\Users\\kiit1\\Documents\\GitHub\\SportsStore\\SportsStore\\SportsStore.csproj",
       "packagesPath": "C:\\Users\\kiit1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kiit1\\source\\repos\\SportsStore\\SportsStore\\obj\\",
+      "outputPath": "C:\\Users\\kiit1\\Documents\\GitHub\\SportsStore\\SportsStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

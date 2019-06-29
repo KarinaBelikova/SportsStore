@@ -7,11 +7,12 @@ namespace SportsStore.Models
 {
     public class EFProductRepository : IProductRepository
     {
-        private ApplicationDBContext _context;
+        private ApplicationDbContext _context;
 
-        public EFProductRepository(ApplicationDBContext context)
+        public EFProductRepository(ApplicationDbContext context)
         {
             _context = context;
+            SeedData.EnsurePopulated(_context);
         }
 
         public IQueryable<Product> Products => _context.Products;

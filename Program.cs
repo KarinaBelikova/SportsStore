@@ -17,6 +17,13 @@ namespace SportsStore
             CreateWebHostBuilder(args).Build().Run();
         }
 
+        // Book proposes this way, but it doesn't work
+        //public static IWebHost CreateWebHostBuilder(string[] args) =>
+        //    WebHost.CreateDefaultBuilder(args)
+        //        .UseStartup<Startup>()
+        //        .UseDefaultServiceProvider(options => options.ValidateScopes = false)
+        //        .Build();
+
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
