@@ -12,7 +12,7 @@ namespace SportsStore.Models.ViewModels
         public string Name { get; set; }
          
         [Required]
-        [UIHint("[password]")]
+        [UIHint("password")]
         public string Password { get; set; }
 
         public string ReturnUrl { get; set; } = "/";
